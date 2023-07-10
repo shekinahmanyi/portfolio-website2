@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "tailwindcss": "^3.3.2"
-  },
-  "dependencies": {
-    "react-icons": "^4.10.1",
-    "react-router-dom": "^6.14.1"
-  }
-}
