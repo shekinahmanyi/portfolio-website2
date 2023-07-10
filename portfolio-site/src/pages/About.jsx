@@ -1,8 +1,9 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom"; 
 
 function About() {
+  const blogUrl = "https://medium.com/@shekinahmanyi";
+
   return (
     <div className="bg-blue-950 min-h-screen flex items-center justify-center">
       <div className="font-nunito p-8">
@@ -20,19 +21,21 @@ function About() {
           I create exceptional web applications that leave a lasting impression.
           <br />
           <br />
-          Aside from coding, I have a love for reading books and writing articles,
+          Aside from coding, I have a love for reading books and writing
+          articles,
           <br />
-          which you can explore on my blog page. I believe in maintaining a
+          which you can explore on my blog page on medium. I believe in maintaining a
           <br />
-          positive attitude and always strive to give my best in everything I do, embracing
+          positive attitude and always strive to give my best in everything I
+          do, embracing
           <br />
           challenges with a smile.
         </p>
-        <Link to="/blog">
+        <a href={blogUrl} target="_blank" rel="noopener noreferrer">
           <button className="bg-white text-blue-700 px-4 py-2 rounded-md flex items-center mt-4">
             Visit My Blog <FaArrowRight className="ml-1" />
           </button>
-        </Link>
+        </a>
       </div>
     </div>
   );
