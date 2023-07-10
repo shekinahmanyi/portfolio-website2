@@ -52,7 +52,7 @@ function Navbar() {
           <Link
             to="/skills"
             className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
-              location.pathname === "/projects" ? "text-blue-400" : ""
+              location.pathname === "/skills" ? "text-blue-400" : ""
             }`}
             onClick={handleLinkClick}
           >
@@ -61,7 +61,7 @@ function Navbar() {
           <Link
             to="/projects"
             className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
-              location.pathname === "/skills" ? "text-blue-400" : ""
+              location.pathname === "/projects" ? "text-blue-400" : ""
             }`}
             onClick={handleLinkClick}
           >
