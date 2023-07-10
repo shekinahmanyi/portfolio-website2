@@ -1,19 +1,187 @@
-import React from 'react'
-import { FaLink} from "react-icons/fa";
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import {
+  FaBars,
+  FaTimes,
+  FaTwitter,
+  FaLinkedin,
+  FaGithub,
+} from "react-icons/fa";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
-    <nav className='navbar bg-white text-neutral-content fixed top-0 inset-x-0 z-50 shadow-lg'>
-      <div className="container mx-auto px-6 flex items-center justify-between">
-        <div className="px-5 text-2xl mb-6 mt-6">
-          <span className="text-blue-500 tracking-tight">
-            Sheki<span className="text-gray-800 font-mono">Dev</span>
-            <FaLink className="inline pr-2 md:inline-block text-3xl" />
+    <nav className="navbar bg-blue-950 text-neutral-content fixed top-0 inset-x-0 z-50 shadow-lg">
+      <div className="container mx-auto px-6 flex items-center font-nunito justify-between">
+        <div className="px-5 text-2xl mb-5 mt-5 font-bold">
+          <span className="text-white tracking-tight">
+            Sheki<span className="text-blue-600">Dev✨</span>
           </span>
         </div>
+        <div className="flex items-center space-x-2 md:hidden">
+          <button
+            onClick={toggleMenu}
+            className="text-blue-600 hover:text-blue-600 text-3xl focus:outline-none"
+          >
+            {isOpen ? <FaTimes /> : <FaBars />}
+          </button>
+        </div>
+        <div className="font-bold hidden md:flex md:items-center md:space-x-4 mr-24">
+          {/* Navbar links */}
+          <Link
+            to="/"
+            className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
+              location.pathname === "/" ? "text-blue-400" : ""
+            }`}
+            onClick={handleLinkClick}
+          >
+            Home
+          </Link>
+          <Link
+            to="/about"
+            className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
+              location.pathname === "/about" ? "text-blue-400" : ""
+            }`}
+            onClick={handleLinkClick}
+          >
+            About Me
+          </Link>
+          <Link
+            to="/projects"
+            className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
+              location.pathname === "/projects" ? "text-blue-400" : ""
+            }`}
+            onClick={handleLinkClick}
+          >
+            Skills
+          </Link>
+          <Link
+            to="/skills"
+            className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
+              location.pathname === "/skills" ? "text-blue-400" : ""
+            }`}
+            onClick={handleLinkClick}
+          >
+            Projects
+          </Link>
+          <Link
+            to="/blog"
+            className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
+              location.pathname === "/blog" ? "text-blue-400" : ""
+            }`}
+            onClick={handleLinkClick}
+          >
+            My Blog
+          </Link>
+          <Link
+            to="/contact"
+            className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
+              location.pathname === "/contact" ? "text-blue-400" : ""
+            }`}
+            onClick={handleLinkClick}
+          >
+            Contact Me
+          </Link>
+        </div>
+        <div className="flex justify-center items-center space-x-2">
+          <a
+            href="https://github.com/shekinahmanyi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-700 rounded-full p-2"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://twitter.com/ShekinahManyi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-700 rounded-full p-2"
+          >
+            <FaTwitter />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/shekinah-manyi-849a21210/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-700 rounded-full p-2"
+          >
+            <FaLinkedin />
+          </a>
+        </div>
       </div>
+      {isOpen && (
+        <div className="container mx-auto px-6 my-4">
+          <div className="flex flex-col space-y-4">
+            <Link
+              to="/"
+              className={`text-white hover:text-blue-400 text-base font-medium ${
+                location.pathname === "/" ? "text-blue-400" : ""
+              }`}
+              onClick={handleLinkClick}
+            >
+              Home
+            </Link>
+            <Link
+              to="/about"
+              className={`text-white hover:text-blue-400 text-base font-medium ${
+                location.pathname === "/about" ? "text-blue-400" : ""
+              }`}
+              onClick={handleLinkClick}
+            >
+              About Me
+            </Link>
+            <Link
+              to="/projects"
+              className={`text-white hover:text-blue-400 text-base font-medium ${
+                location.pathname === "/projects" ? "text-blue-400" : ""
+              }`}
+              onClick={handleLinkClick}
+            >
+              Skills
+            </Link>
+            <Link
+              to="/skills"
+              className={`text-white hover:text-blue-400 text-base font-medium ${
+                location.pathname === "/skills" ? "text-blue-400" : ""
+              }`}
+              onClick={handleLinkClick}
+            >
+              Projects
+            </Link>
+            <Link
+              to="/blog"
+              className={`text-white hover:text-blue-400 text-base font-medium ${
+                location.pathname === "/blog" ? "text-blue-400" : ""
+              }`}
+              onClick={handleLinkClick}
+            >
+              My Blog
+            </Link>
+            <Link
+              to="/contact"
+              className={`text-white hover:text-blue-400 text-base font-medium ${
+                location.pathname === "/contact" ? "text-blue-400" : ""
+              }`}
+              onClick={handleLinkClick}
+            >
+              Contact Me
+            </Link>
+          </div>         
+        </div>
+      )}
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
