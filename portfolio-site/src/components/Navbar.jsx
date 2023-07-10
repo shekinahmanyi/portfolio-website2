@@ -50,7 +50,7 @@ function Navbar() {
             About Me
           </Link>
           <Link
-            to="/projects"
+            to="/skills"
             className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
               location.pathname === "/projects" ? "text-blue-400" : ""
             }`}
@@ -59,7 +59,7 @@ function Navbar() {
             Skills
           </Link>
           <Link
-            to="/skills"
+            to="/projects"
             className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
               location.pathname === "/skills" ? "text-blue-400" : ""
             }`}
@@ -143,7 +143,7 @@ function Navbar() {
               About Me
             </Link>
             <Link
-              to="/projects"
+              to="/skills"
               className={`text-white hover:text-blue-400 text-base font-medium ${
                 location.pathname === "/projects" ? "text-blue-400" : ""
               }`}
@@ -152,7 +152,7 @@ function Navbar() {
               Skills
             </Link>
             <Link
-              to="/skills"
+              to="/projects"
               className={`text-white hover:text-blue-400 text-base font-medium ${
                 location.pathname === "/skills" ? "text-blue-400" : ""
               }`}
