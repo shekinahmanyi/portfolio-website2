@@ -28,14 +28,7 @@ function Navbar() {
             Sheki<span className="text-blue-600">Dev✨</span>
           </span>
         </div>
-        <div className="flex items-center space-x-2 md:hidden">
-          <button
-            onClick={toggleMenu}
-            className="text-blue-600 hover:text-blue-600 text-3xl focus:outline-none"
-          >
-            {isOpen ? <FaTimes /> : <FaBars />}
-          </button>
-        </div>
+        
         <div className="font-bold hidden md:flex md:items-center md:space-x-4 mr-24">
           {/* Navbar links */}
           <Link
@@ -118,6 +111,14 @@ function Navbar() {
           >
             <FaLinkedin />
           </a>
+        </div>
+        <div className="flex items-center space-x-2 md:hidden">
+          <button
+            onClick={toggleMenu}
+            className="text-2xl focus:outline-none bg-white rounded-full p-2"
+          >
+            {isOpen ? <FaTimes /> : <FaBars />}
+          </button>
         </div>
       </div>
       {isOpen && (
