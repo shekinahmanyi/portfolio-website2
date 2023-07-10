@@ -28,8 +28,8 @@ function Navbar() {
             Sheki<span className="text-blue-600">Dev✨</span>
           </span>
         </div>
-        
-        <div className="font-bold hidden md:flex md:items-center md:space-x-4 mr-24">
+
+        <div className="font-bold hidden md:flex md:items-center md:space-x-4 mr-52">
           {/* Navbar links */}
           <Link
             to="/"
@@ -66,15 +66,6 @@ function Navbar() {
             onClick={handleLinkClick}
           >
             Projects
-          </Link>
-          <Link
-            to="/blog"
-            className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
-              location.pathname === "/blog" ? "text-blue-400" : ""
-            }`}
-            onClick={handleLinkClick}
-          >
-            My Blog
           </Link>
           <Link
             to="/contact"
@@ -160,15 +151,7 @@ function Navbar() {
             >
               Projects
             </Link>
-            <Link
-              to="/blog"
-              className={`text-white hover:text-blue-400 text-base font-medium ${
-                location.pathname === "/blog" ? "text-blue-400" : ""
-              }`}
-              onClick={handleLinkClick}
-            >
-              My Blog
-            </Link>
+
             <Link
               to="/contact"
               className={`text-white hover:text-blue-400 text-base font-medium ${
@@ -178,7 +161,7 @@ function Navbar() {
             >
               Contact Me
             </Link>
-          </div>         
+          </div>
         </div>
       )}
     </nav>
