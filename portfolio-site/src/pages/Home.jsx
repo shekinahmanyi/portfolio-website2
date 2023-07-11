@@ -4,7 +4,7 @@ import { FaDownload } from "react-icons/fa";
 
 function Home() {
   const resumeUrl =
-    "https://docs.google.com/document/d/1p9oJPx3-XpfIT_3Kr-nj6JAKC-VXVO4j08Q3ZFuCExA/edit?usp=drive_link"; // Replace with the direct URL to your resume
+    "https://drive.google.com/file/d/1PfIwsQIAWW3-R86Ut8KunbvnvTHMeMc7/view?usp=sharing"; // Replace with the direct URL to your resume
 
   return (
     <div className="bg-blue-950 min-h-screen flex items-center justify-center">
