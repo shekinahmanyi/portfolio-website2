@@ -15,13 +15,10 @@ function Contact() {
           Contact Me!
         </h1>
         <p className="text-white text-center text-xl p-6">
-          Do you have a project for us to work on? or an Idea? <br /> Please
-          Reach Out!😆
+          Do you have a project for me to work on? or an Idea? <br /> Please Reach Out!😆
         </p>
-        <div className="max-w-md mx-auto bg-white p-6  rounded-lg shadow-md mt-4 mb-8">
-          <p className="font-bold text-center text-2xl mb-4">
-            Send me a Message!
-          </p>
+        <div className="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md mt-4 mb-8 ">
+          <p className="font-bold text-center text-2xl mb-4">Send me a Message!</p>
           <h2 className="text-lg font-bold  flex items-center">
             <span className="mr-2">Email Me</span>
             <FaEnvelope className="text-blue-700" />
