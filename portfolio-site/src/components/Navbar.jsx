@@ -106,7 +106,7 @@ function Navbar() {
         <div className="flex items-center space-x-2 md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-2xl focus:outline-none bg-white rounded-full p-2"
+            className="text-2xl focus:outline-none bg-white rounded-full p-2 ml-2"
           >
             {isOpen ? <FaTimes /> : <FaBars />}
           </button>
@@ -114,7 +114,7 @@ function Navbar() {
       </div>
       {isOpen && (
         <div className="container mx-auto px-6 my-4">
-          <div className="flex flex-col space-y-4">
+          <div className="flex flex-col space-y-4 font-nunito">
             <Link
               to="/"
               className={`text-white hover:text-blue-400 text-base font-medium ${
