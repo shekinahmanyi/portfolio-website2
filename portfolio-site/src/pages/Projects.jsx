@@ -13,14 +13,16 @@ function Projects() {
   return (
     <div className="bg-blue-950 min-h-screen flex flex-col items-center justify-center">
       <div className="container mx-auto font-nunito">
-        <h1 className="text-3xl text-blue-400 text-center font-bold mt-24">
+        <h1 className="text-3xl text-blue-400 text-center font-bold mt-28">
           Completed Projects
         </h1>
-        <p className="text-white text-center mt-4">
-          Since embarking on my programming journey in 2020, I have been
+        <p className="text-white text-center mt-2 p-2">
+          Since embarking on my programming journey<br/> in 2020, I have been
           passionately working on a wide range of projects.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-16 mt-12 mx-4 mb-12 justify-center">
+
+
           {/* Project 1 */}
           <div className="bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-24 md:mr-2">
             <img
