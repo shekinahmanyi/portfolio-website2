@@ -106,7 +106,7 @@ function Navbar() {
         <div className="flex items-center space-x-2 md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-2xl focus:outline-none bg-white rounded-full p-2 ml"
+            className="text-2xl focus:outline-none bg-white rounded-full p-2 ml-2"
           >
             {isOpen ? <FaTimes /> : <FaBars />}
           </button>
