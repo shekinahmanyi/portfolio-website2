@@ -11,10 +11,10 @@ function Contact() {
   return (
     <div className="bg-blue-950 min-h-screen flex items-center justify-center">
       <div className="container mx-auto font-nunito">
-        <h1 className="text-3xl text-blue-400 text-center font-bold mb-12">
+        <h1 className="text-3xl text-blue-400 text-center font-bold mb-2">
           Contact Me!
         </h1>
-        <p className="text-white text-center text-xl">
+        <p className="text-white text-center text-xl p-6">
           Do you have a project for us to work on? or an Idea? <br /> Please
           Reach Out!😆
         </p>
