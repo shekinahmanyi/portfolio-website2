@@ -33,8 +33,8 @@ function Navbar() {
           {/* Navbar links */}
           <Link
             to="/"
-            className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
-              location.pathname === "/" ? "text-blue-400" : ""
+            className={`text-white px-2 py-2  text-base font-medium ${
+              location.pathname === "/" ? "text-blue-400" : "hover:text-blue-400"
             }`}
             onClick={handleLinkClick}
           >
@@ -42,8 +42,8 @@ function Navbar() {
           </Link>
           <Link
             to="/about"
-            className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
-              location.pathname === "/about" ? "text-blue-400" : ""
+            className={`text-white px-2 py-2 text-base font-medium ${
+              location.pathname === "/about" ? "text-blue-400" : "hover:text-blue-400 "
             }`}
             onClick={handleLinkClick}
           >
@@ -51,8 +51,8 @@ function Navbar() {
           </Link>
           <Link
             to="/skills"
-            className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
-              location.pathname === "/skills" ? "text-blue-400" : ""
+            className={`text-white px-2 py-2  text-base font-medium ${
+              location.pathname === "/skills" ? "text-blue-400" : "hover:text-blue-400"
             }`}
             onClick={handleLinkClick}
           >
@@ -60,8 +60,8 @@ function Navbar() {
           </Link>
           <Link
             to="/projects"
-            className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
-              location.pathname === "/projects" ? "text-blue-400" : ""
+            className={`text-white px-2 py-2  text-base font-medium ${
+              location.pathname === "/projects" ? "text-blue-400" : "hover:text-blue-400"
             }`}
             onClick={handleLinkClick}
           >
@@ -69,8 +69,8 @@ function Navbar() {
           </Link>
           <Link
             to="/contact"
-            className={`text-white px-2 py-2 hover:text-blue-400 text-base font-medium ${
-              location.pathname === "/contact" ? "text-blue-400" : ""
+            className={`text-white px-2 py-2 text-base font-medium ${
+              location.pathname === "/contact" ? "text-blue-400" : "hover:text-blue-400"
             }`}
             onClick={handleLinkClick}
           >
@@ -117,8 +117,8 @@ function Navbar() {
           <div className="flex flex-col space-y-4 font-nunito">
             <Link
               to="/"
-              className={`text-white hover:text-blue-400 text-base font-medium ${
-                location.pathname === "/" ? "text-blue-400" : ""
+              className={`text-white text-base font-medium ${
+                location.pathname === "/" ? "text-blue-400" : "hover:text-blue-400"
               }`}
               onClick={handleLinkClick}
             >
@@ -126,8 +126,8 @@ function Navbar() {
             </Link>
             <Link
               to="/about"
-              className={`text-white hover:text-blue-400 text-base font-medium ${
-                location.pathname === "/about" ? "text-blue-400" : ""
+              className={`text-white text-base font-medium ${
+                location.pathname === "/about" ? "text-blue-400" : "hover:text-blue-400"
               }`}
               onClick={handleLinkClick}
             >
@@ -135,8 +135,8 @@ function Navbar() {
             </Link>
             <Link
               to="/skills"
-              className={`text-white hover:text-blue-400 text-base font-medium ${
-                location.pathname === "/projects" ? "text-blue-400" : ""
+              className={`text-white  text-base font-medium ${
+                location.pathname === "/projects" ? "text-blue-400" : "hover:text-blue-400"
               }`}
               onClick={handleLinkClick}
             >
@@ -144,8 +144,8 @@ function Navbar() {
             </Link>
             <Link
               to="/projects"
-              className={`text-white hover:text-blue-400 text-base font-medium ${
-                location.pathname === "/skills" ? "text-blue-400" : ""
+              className={`text-white  text-base font-medium ${
+                location.pathname === "/skills" ? "text-blue-400" : "hover:text-blue-400"
               }`}
               onClick={handleLinkClick}
             >
@@ -154,8 +154,8 @@ function Navbar() {
 
             <Link
               to="/contact"
-              className={`text-white hover:text-blue-400 text-base font-medium ${
-                location.pathname === "/contact" ? "text-blue-400" : ""
+              className={`text-white text-base font-medium ${
+                location.pathname === "/contact" ? "text-blue-400" : "hover:text-blue-400"
               }`}
               onClick={handleLinkClick}
             >
