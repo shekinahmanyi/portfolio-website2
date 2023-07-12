@@ -15,10 +15,13 @@ function Contact() {
           Contact Me!
         </h1>
         <p className="text-white text-center text-base p-4">
-          Do you have a project for me to work on? or an Idea? or a Job for me? <br /> Please Reach Out!😆
+          Do you have a project for me to work on? or an Idea? or a Job for me?{" "}
+          <br /> Please Reach Out!😆
         </p>
         <div className="max-w-md bg-white p-6 rounded-lg shadow-md mt-2 mb-4">
-          <p className="font-bold text-center text-2xl mb-4">Send me a Message!</p>
+          <p className="font-bold text-center text-2xl mb-4">
+            Send me a Message!
+          </p>
           <h2 className="text-lg font-bold flex items-center">
             <span className="mr-2">Email Me</span>
             <FaEnvelope className="text-blue-700" />
@@ -57,6 +60,14 @@ function Contact() {
             </a>
           </div>
         </div>
+        <a
+          href="https://www.buymeacoffee.com/shekinahmanyi"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded-full transition-colors duration-300 flex items-center space-x-4 mt-4"
+        >
+          <span>Buy Me a Coffee</span>
+        </a>
       </div>
     </div>
   );
