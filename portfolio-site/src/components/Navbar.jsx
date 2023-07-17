@@ -21,7 +21,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar bg-blue-950 text-neutral-content fixed top-0 inset-x-0 z-50 shadow-lg">
+    <nav className="navbar bg-blue-950 text-neutral-content fixed top-0 inset-x-0 z-50 shadow-lg ">
       <div className="container mx-auto px-6 flex items-center font-nunito justify-between">
         <div className="px-5 text-2xl mb-5 mt-5 font-bold">
           <span className="text-white tracking-tight">

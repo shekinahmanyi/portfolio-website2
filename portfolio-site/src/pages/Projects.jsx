@@ -17,7 +17,7 @@ function Projects() {
           Completed Projects
         </h1>
         <p className="text-white text-center mt-2 p-2">
-          Since embarking on my programming journey<br/> in 2020, I have been
+          Since embarking on my programming journey<br/> in 2021, I have been
           passionately working on a wide range of projects.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-16 mt-12 mx-4 mb-12 justify-center">
