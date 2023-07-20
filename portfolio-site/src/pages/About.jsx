@@ -14,9 +14,9 @@ function About() {
         </div>
         <h1 className="text-3xl font-bold text-white mb-2">More About Me</h1>
         <p className="text-white text-base">
-          My name is Shekinah Manyi and I am a Cameroonian.
+          My name is Shekinah Manyi and I am a Software Engineer
           <br />
-          I have a strong foundation in web development,
+          from Cameroonian.I have a strong foundation in web development,
           <br />
           I create exceptional web applications that leave a lasting impression.
           <br />
