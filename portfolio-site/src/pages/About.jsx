@@ -16,7 +16,7 @@ function About() {
         <p className="text-white text-base">
           My name is Shekinah Manyi and I am a Software Engineer
           <br />
-          from Cameroonian.I have a strong foundation in web development,
+          from Cameroon.I have a strong foundation in web development,
           <br />
           I create exceptional web applications that leave a lasting impression.
           <br />
