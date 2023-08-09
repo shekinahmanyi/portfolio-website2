@@ -15,7 +15,8 @@ function Contact() {
           Contact Me!
         </h1>
         <p className="text-white text-center text-base p-4">
-          Do you have a project for me to work on? or an Idea? or a Job for me?{" "}
+          Do you have a project for me to work on? or an Idea?
+          One More thing is that I do not bite!!
           <br /> Please Reach Out!😆
         </p>
         <div className="max-w-md bg-white p-6 rounded-lg shadow-md mt-2 mb-4">
