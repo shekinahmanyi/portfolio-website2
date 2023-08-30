@@ -35,7 +35,7 @@ function Navbar() {
             to="/"
             className={`text-white px-2 py-2 text-base font-medium ${
               location.pathname === "/"
-                ? "text-blue-500"
+                ? "text-green-500"
                 : "hover:text-blue-400"
             }`}
             onClick={handleLinkClick}
@@ -46,7 +46,7 @@ function Navbar() {
             to="/about"
             className={`text-white px-2 py-2 text-base font-medium ${
               location.pathname === "/about"
-                ? "text-blue-500"
+                ? "text-green-500"
                 : "hover:text-blue-400"
             }`}
             onClick={handleLinkClick}
@@ -57,7 +57,7 @@ function Navbar() {
             to="/skills"
             className={`text-white px-2 py-2  text-base font-medium ${
               location.pathname === "/skills"
-                ? "text-blue-500"
+                ? "text-green-500"
                 : "hover:text-blue-400"
             }`}
             onClick={handleLinkClick}
@@ -68,7 +68,7 @@ function Navbar() {
             to="/projects"
             className={`text-white px-2 py-2  text-base font-medium ${
               location.pathname === "/projects"
-                ? "text-blue-500"
+                ? "text-green-500"
                 : "hover:text-blue-400"
             }`}
             onClick={handleLinkClick}
@@ -79,7 +79,7 @@ function Navbar() {
             to="/contact"
             className={`text-white px-2 py-2 text-base font-medium ${
               location.pathname === "/contact"
-                ? "text-blue-500"
+                ? "text-green-500"
                 : "hover:text-blue-400"
             }`}
             onClick={handleLinkClick}
@@ -132,7 +132,7 @@ function Navbar() {
               to="/"
               className={`text-white text-base font-medium ${
                 location.pathname === "/"
-                  ? "text-blue-500"
+                  ? "text-green-500"
                   : "hover:text-blue-400"
               }`}
               onClick={handleLinkClick}
@@ -143,7 +143,7 @@ function Navbar() {
               to="/about"
               className={`text-white text-base font-medium ${
                 location.pathname === "/about"
-                  ? "text-blue-500"
+                  ? "text-green-500"
                   : "hover:text-blue-400"
               }`}
               onClick={handleLinkClick}
@@ -154,7 +154,7 @@ function Navbar() {
               to="/skills"
               className={`text-white  text-base font-medium ${
                 location.pathname === "/skills"
-                  ? "text-blue-500"
+                  ? "text-green-500"
                   : "hover:text-blue-400"
               }`}
               onClick={handleLinkClick}
@@ -165,7 +165,7 @@ function Navbar() {
               to="/projects"
               className={`text-white  text-base font-medium ${
                 location.pathname === "/projects"
-                  ? "text-blue-500"
+                  ? "text-green-500"
                   : "hover:text-blue-400"
               }`}
               onClick={handleLinkClick}
@@ -176,7 +176,7 @@ function Navbar() {
               to="/contact"
               className={`text-white text-base font-medium ${
                 location.pathname === "/contact"
-                  ? "text-blue-500"
+                  ? "text-green-500"
                   : "hover:text-blue-400"
               }`}
               onClick={handleLinkClick}
