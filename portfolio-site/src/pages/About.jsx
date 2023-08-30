@@ -8,8 +8,8 @@ function About() {
     <div className="bg-blue-950 min-h-screen flex items-center justify-center">
       <div className="font-nunito p-8">
         <div className="flex items-center mb-4 h-full">
-          <div className="border-r border-blue-400 pr-4">
-            <h1 className="text-xs text-blue-400">About Me</h1>
+          <div className="border-r-4 border-blue-400 pr-4">
+            <h1 className="text-sm text-blue-400">About Me</h1>
           </div>
         </div>
         <h1 className="text-3xl font-bold text-white mb-2">More About Me</h1>
