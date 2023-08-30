@@ -35,7 +35,7 @@ function Navbar() {
             to="/"
             className={`text-white px-2 py-2 text-base font-medium ${
               location.pathname === "/"
-                ? "text-green-500"
+                ? "text-blue-800 underline"
                 : "hover:text-blue-400"
             }`}
             onClick={handleLinkClick}
