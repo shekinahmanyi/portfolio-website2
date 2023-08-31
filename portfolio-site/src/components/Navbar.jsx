@@ -93,7 +93,7 @@ function Navbar() {
             href="https://github.com/shekinahmanyi"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-700 rounded-full p-2"
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-blue-700 rounded-full p-2"
           >
             <FaGithub />
           </a>
@@ -101,7 +101,7 @@ function Navbar() {
             href="https://twitter.com/ShekinahManyi"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-700 rounded-full p-2"
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-blue-700 rounded-full p-2"
           >
             <FaTwitter />
           </a>
@@ -109,7 +109,7 @@ function Navbar() {
             href="https://www.linkedin.com/in/shekinah-manyi-849a21210/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-700 rounded-full p-2"
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-blue-700 rounded-full p-2"
           >
             <FaLinkedin />
           </a>
