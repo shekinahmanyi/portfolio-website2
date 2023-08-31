@@ -8,8 +8,6 @@ import bus from "../images/bus.jpg";
 import { FaArrowRight } from "react-icons/fa";
 
 function Projects() {
-
-  
   return (
     <div className="bg-blue-950 min-h-screen flex flex-col items-center justify-center">
       <div className="container mx-auto font-nunito">
@@ -17,14 +15,13 @@ function Projects() {
           Completed Projects
         </h1>
         <p className="text-white text-center mt-2 p-2">
-          Since embarking on my programming journey<br/> in 2021, I have been
-          passionately working on a wide range of projects.
+          Since embarking on my programming journey
+          <br /> in 2021, I have been passionately working on a wide range of
+          projects.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-16 mt-12 mx-4 mb-12 justify-center">
-
-
           {/* Project 1 */}
-          <div className="bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-24 md:mr-2">
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-24 md:mr-2">
             <img
               src={mental}
               alt="Project 1"
@@ -57,7 +54,7 @@ function Projects() {
           </div>
 
           {/* Project 2 */}
-          <div className="bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-2 md:mr-4">
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-2 md:mr-4">
             <img
               src={meal}
               alt="Project 2"
@@ -81,7 +78,8 @@ function Projects() {
               <a
                 href="https://github.com/shekinahmanyi/Meal_Mart"
                 className="text-blue-500 font-medium"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Repository
               </a>
@@ -89,7 +87,7 @@ function Projects() {
           </div>
 
           {/* Project 3 */}
-          <div className="bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-24 md:mr-2">
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-24 md:mr-2">
             <img
               src={feedback}
               alt="Project 3"
@@ -121,7 +119,7 @@ function Projects() {
           </div>
 
           {/* Project 4 */}
-          <div className="bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-2 md:mr-4">
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-2 md:mr-4">
             <img
               src={github}
               alt="Project 4"
@@ -154,7 +152,7 @@ function Projects() {
           </div>
 
           {/* Project 5 */}
-          <div className="bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-24 md:mr-2">
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-24 md:mr-2">
             <img
               src={rest}
               alt="Project 5"
@@ -187,7 +185,7 @@ function Projects() {
           </div>
 
           {/* Project 6 */}
-          <div className="bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-2 md:mr-4">
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-2 md:mr-4">
             <img
               src={bus}
               alt="Project 6"
@@ -227,9 +225,10 @@ function Projects() {
           <a
             href="https://github.com/shekinahmanyi?tab=repositories"
             className="text-white font-2xl"
-            target="_blank" rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <button className="bg-white text-blue-700 px-4 py-2 rounded-md flex items-center mt-4">
+            <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white text-blue-700 px-4 py-2 rounded-md flex items-center mt-4">
               Check More Projects <FaArrowRight className="ml-1" />
             </button>
           </a>

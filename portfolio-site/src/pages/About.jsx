@@ -32,7 +32,7 @@ function About() {
           challenges with a smile.
         </p>
         <a href={blogUrl} target="_blank" rel="noopener noreferrer">
-          <button className="bg-white text-blue-700 px-4 py-2 rounded-md flex items-center mt-4">
+          <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white text-blue-700 px-4 py-2 rounded-md flex items-center mt-4">
             Visit My Blog <FaArrowRight className="ml-1" />
           </button>
         </a>

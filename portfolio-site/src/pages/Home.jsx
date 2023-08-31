@@ -31,13 +31,13 @@ function Home() {
           <a
             href={resumeUrl}
             download="resume.pdf"
-            className="bg-blue-700 text-white text-base font-medium px-4 py-2 mr-4 rounded-md flex items-center"
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-blue-700 text-white text-base font-medium px-4 py-2 mr-4 rounded-md flex items-center"
           >
             <FaDownload className="mr-2" /> Resume
           </a>
           <a
             href="/contact"
-            className="bg-green-500 text-white text-base font-medium px-4 py-2 rounded-md"
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-green-500 text-white text-base font-medium px-4 py-2 rounded-md"
           >
             Hire Me
           </a>

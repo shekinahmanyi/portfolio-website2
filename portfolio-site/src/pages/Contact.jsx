@@ -65,7 +65,7 @@ function Contact() {
           href="https://www.buymeacoffee.com/shekinahmanyi"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded-full transition-colors duration-300 flex items-center space-x-4 mt-4"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded-full flex items-center space-x-4 mt-4"
         >
           <span>Buy Me a Coffee</span>
         </a>
