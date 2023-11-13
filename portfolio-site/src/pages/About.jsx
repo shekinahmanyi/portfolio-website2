@@ -9,11 +9,11 @@ function About() {
       <div className="font-nunito p-8 ">
         <div className="flex items-center mb-4 h-full">
           <div className="border-r-4 border-blue-400 pr-4">
-            <h1 className="text-lg text-blue-400">About Me</h1>
+            <h1 className="text-sm text-blue-400">About Me</h1>
           </div>
         </div>
-        <h1 className="text-4xl font-bold text-white mb-2">More About Me</h1>
-        <p className="text-white text-xl">
+        <h1 className="text-base font-bold text-white mb-2">More About Me</h1>
+        <p className="text-white text-base">
           My name is Shekinah Manyi and I am a Software Engineer
           <br />
           from Cameroon.I have a strong foundation in web development,

@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="bg-blue-950 min-h-screen flex items-center justify-center">
       <div className="rounded-lg max-w-md w-full sm:w-auto">
-        <div className="w-52 h-52 mx-auto mb-2">
+        <div className="w-48 h-48 mx-auto mb-2">
           <img
             src={sheki}
             alt="shekinah"
@@ -19,7 +19,7 @@ function Home() {
         <h1 className="text-xs font-bold text-center font-nunito text-stone-300">
           FULL STACK DEVELOPER
         </h1>
-        <h1 className="text-3xl font-bold text-center font-nunito pt-4 text-white">
+        <h1 className="text-2xl font-bold text-center font-nunito pt-4 text-white">
           Hello, I'm Shekinah!
         </h1>
         <p className="font-nunito p-4 text-center text-white text-lg">
