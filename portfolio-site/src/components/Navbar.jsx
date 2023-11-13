@@ -33,7 +33,7 @@ function Navbar() {
           {/* Navbar links */}
           <Link
             to="/"
-            className={`text-white px-2 py-2 text-base font-medium ${
+            className={`text-white px-2 py-2 text-lg font-medium ${
               location.pathname === "/"
                 ? "text-blue-500 border-b-2 border-green-500"
                 : "hover:text-blue-400"
@@ -44,7 +44,7 @@ function Navbar() {
           </Link>
           <Link
             to="/about"
-            className={`text-white px-2 py-2 text-base font-medium ${
+            className={`text-white px-2 py-2 text-lg font-medium ${
               location.pathname === "/about"
                 ? "text-blue-500 border-b-2 border-green-500"
                 : "hover:text-blue-400"
@@ -55,7 +55,7 @@ function Navbar() {
           </Link>
           <Link
             to="/skills"
-            className={`text-white px-2 py-2  text-base font-medium ${
+            className={`text-white px-2 py-2  text-lg font-medium ${
               location.pathname === "/skills"
                 ? "text-blue-500 border-b-2 border-green-500"
                 : "hover:text-blue-400"
@@ -66,7 +66,7 @@ function Navbar() {
           </Link>
           <Link
             to="/projects"
-            className={`text-white px-2 py-2  text-base font-medium ${
+            className={`text-white px-2 py-2  text-lg font-medium ${
               location.pathname === "/projects"
                 ? "text-blue-500 border-b-2 border-green-500"
                 : "hover:text-blue-400"
@@ -77,7 +77,7 @@ function Navbar() {
           </Link>
           <Link
             to="/contact"
-            className={`text-white px-2 py-2 text-base font-medium ${
+            className={`text-white px-2 py-2 text-lg font-medium ${
               location.pathname === "/contact"
                 ? "text-blue-500 border-b-2 border-green-500"
                 : "hover:text-blue-400"
