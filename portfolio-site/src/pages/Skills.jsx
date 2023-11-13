@@ -11,7 +11,7 @@ import flutter from '../images/flutter.png'
 function Skills() {
   return (
     <div className="bg-blue-950 min-h-screen flex flex-col items-center justify-center">
-      <h1 className="text-blue-400 text-center text-2xl p-8 font-nunito mb-4 font-bold">Tools / Technologies</h1>
+      <h1 className="text-blue-400 text-center text-2xl p-8 font-nunito mt-24 mb-4 font-bold">Tools / Technologies</h1>
 
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 font-nunito mb-8 font-bold">
         <div className="bg-black bg-opacity-20 p-2 rounded-lg flex flex-col items-center">

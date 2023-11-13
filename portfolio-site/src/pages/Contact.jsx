@@ -11,7 +11,7 @@ function Contact() {
   return (
     <div className="bg-blue-950 min-h-screen flex items-center justify-center">
       <div className="container flex flex-col items-center font-nunito">
-        <h1 className="text-3xl text-blue-400 text-center font-bold mt-6">
+        <h1 className="text-3xl text-blue-400 text-center font-bold mt-24">
           Contact Me!
         </h1>
         <p className="text-white text-center text-base font-mono p-6">
@@ -68,7 +68,7 @@ function Contact() {
           href="https://www.buymeacoffee.com/shekinahmanyi"
           target="_blank"
           rel="noopener noreferrer"
-          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-green-500 text-white text-lg font-medium px-4 py-2 rounded-md mt-4"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-green-500 text-white text-lg font-medium px-4 py-2 rounded-md mt-6 mb-4"
         >
           <span>Buy Me a Coffee</span>
         </a>
