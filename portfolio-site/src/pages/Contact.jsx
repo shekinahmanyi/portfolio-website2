@@ -42,7 +42,7 @@ function Contact() {
               href="https://github.com/shekinahmanyi"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-700 rounded-full p-4"
+              className="bg-green-700 rounded-full p-4 text-white"
             >
               <FaGithub />
             </a>
@@ -50,7 +50,7 @@ function Contact() {
               href="https://twitter.com/ShekinahManyi"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-700 rounded-full p-4"
+              className="bg-green-700 rounded-full p-4 text-white"
             >
               <FaTwitter />
             </a>
@@ -58,7 +58,7 @@ function Contact() {
               href="https://www.linkedin.com/in/shekinah-manyi-849a21210/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-700 rounded-full p-4"
+              className="bg-green-700 rounded-full p-4 text-white"
             >
               <FaLinkedin />
             </a>
