@@ -5,7 +5,7 @@ function About() {
   const blogUrl = "https://medium.com/@shekinahmanyi";
 
   return (
-    <div className="bg-blue-950 min-h-screen flex items-center justify-center">
+    <div className="bg-slate-900 min-h-screen flex items-center justify-center">
       <div className="font-nunito p-8 ">
         <div className="flex items-center mb-4 h-full">
           <div className="border-r-4 border-blue-400 pr-4">
@@ -30,6 +30,7 @@ function About() {
           do, embracing
           <br />
           challenges with a smile.
+          
         </p>
         <a href={blogUrl} target="_blank" rel="noopener noreferrer">
           <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white text-blue-700 px-4 py-2 rounded-md flex items-center mt-4">

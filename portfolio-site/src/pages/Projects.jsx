@@ -9,7 +9,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Projects() {
   return (
-    <div className="bg-blue-950 min-h-screen flex flex-col items-center justify-center">
+    <div className="bg-slate-900 min-h-screen flex flex-col items-center justify-center">
       <div className="container mx-auto font-nunito">
         <h1 className="text-3xl text-blue-400 text-center font-bold mt-28">
           Completed Projects

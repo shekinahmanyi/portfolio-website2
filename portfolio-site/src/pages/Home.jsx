@@ -7,7 +7,7 @@ function Home() {
     "https://drive.google.com/file/d/1AK_o6heXsa-WOqLOcajJNPNTYVoaw6m-/view?usp=sharing"; 
 
   return (
-    <div className="bg-blue-950 min-h-screen flex items-center justify-center">
+    <div className="bg-slate-900 min-h-screen flex items-center justify-center ">
       <div className="rounded-lg max-w-md w-full sm:w-auto">
         <div className="w-48 h-48 mx-auto mb-2">
           <img

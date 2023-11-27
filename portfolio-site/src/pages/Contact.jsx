@@ -9,7 +9,7 @@ import {
 
 function Contact() {
   return (
-    <div className="bg-blue-950 min-h-screen flex items-center justify-center">
+    <div className="bg-slate-900 min-h-screen flex items-center justify-center">
       <div className="container flex flex-col items-center font-nunito">
         <h1 className="text-3xl text-blue-400 text-center font-bold mt-24">
           Contact Me!
