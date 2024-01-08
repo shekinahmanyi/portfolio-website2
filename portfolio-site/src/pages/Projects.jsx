@@ -1,7 +1,7 @@
 import React from "react";
 import mental from "../images/mental.png";
 import meal from "../images/meal.png";
-import feedback from "../images/feedback.png";
+import grateful from "../images/grateful.png";
 import github from "../images/github.png";
 import rest from "../images/rest.jpg";
 import bus from "../images/bus.jpg";
@@ -89,28 +89,28 @@ function Projects() {
           {/* Project 3 */}
           <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-24 md:mr-2">
             <img
-              src={feedback}
+              src={grateful}
               alt="Project 3"
               className="w-full h-56 object-cover mb-4"
             />
-            <h2 className="text-lg font-bold mb-2">FeedBack App</h2>
+            <h2 className="text-lg font-bold mb-2">Grateful Me</h2>
             <p className="text-gray-600 mb-4">
               <span className="font-bold">Technology Used:</span>
               <ul className="list-disc pl-4">
                 <li>React</li>
-                <li>CSS</li>
-                <li>JSON</li>
+                <li>TailWind CSS</li>
+                <li>Framer Motion</li>
               </ul>
             </p>
             <div className="flex justify-between">
               <a
-                href="https://app.netlify.com/sites/profound-longma-56ffba/overview"
+                href="https://gratefulme.vercel.app/"
                 className="text-blue-500 font-medium"
               >
                 Live Demo
               </a>
               <a
-                href="https://github.com/shekinahmanyi/react-project-feedback-app"
+                href="https://github.com/shekinahmanyi/gratefulme"
                 className="text-blue-500 font-medium"
               >
                 Repository
