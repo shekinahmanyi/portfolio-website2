@@ -70,7 +70,7 @@ function Projects() {
             </p>
             <div className="flex justify-between">
               <a
-                href="https://ephemeral-axolotl-c0e595.netlify.app/"
+                href="https://meal-mart.vercel.app/"
                 className="text-blue-500 font-medium"
               >
                 Live Demo
