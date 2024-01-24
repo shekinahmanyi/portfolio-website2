@@ -137,7 +137,7 @@ function Projects() {
             </p>
             <div className="flex justify-between">
               <a
-                href="https://github.com/shekinahmanyi/github-finder-project"
+                href="https://github-finder-nine-phi.vercel.app/"
                 className="text-blue-500 font-medium"
               >
                 Live Demo
