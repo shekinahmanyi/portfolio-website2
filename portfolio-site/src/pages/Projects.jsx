@@ -5,6 +5,7 @@ import grateful from "../images/grateful.png";
 import github from "../images/github.png";
 import rest from "../images/rest.jpg";
 import bus from "../images/bus.jpg";
+import ecommerce from "../images/ecommerce.png"
 import { FaArrowRight } from "react-icons/fa";
 
 function Projects() {
@@ -53,30 +54,33 @@ function Projects() {
             </div>
           </div>
 
+          
+
           {/* Project 2 */}
           <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-2 md:mr-4">
             <img
-              src={meal}
+              src={ecommerce}
               alt="Project 2"
               className="w-full h-56 object-cover mb-4"
             />
-            <h2 className="text-lg font-bold mb-2">Meal Mart</h2>
+            <h2 className="text-lg font-bold mb-2">Sneakers</h2>
             <p className="text-gray-600 mb-4">
               <span className="font-bold">Technology Used:</span>
               <ul className="list-disc pl-4">
-                <li>React</li>
-                <li>Tailwind</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
               </ul>
             </p>
             <div className="flex justify-between">
               <a
-                href="https://meal-mart.vercel.app/"
+                href="https://shekinahmanyi.github.io/e-commerce-product/"
                 className="text-blue-500 font-medium"
               >
                 Live Demo
               </a>
               <a
-                href="https://github.com/shekinahmanyi/Meal_Mart"
+                href="https://github.com/shekinahmanyi/e-commerce-product"
                 className="text-blue-500 font-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -121,15 +125,46 @@ function Projects() {
           {/* Project 4 */}
           <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-2 md:mr-4">
             <img
-              src={github}
+              src={meal}
               alt="Project 4"
+              className="w-full h-56 object-cover mb-4"
+            />
+            <h2 className="text-lg font-bold mb-2">Meal Mart</h2>
+            <p className="text-gray-600 mb-4">
+              <span className="font-bold">Technology Used:</span>
+              <ul className="list-disc pl-4">
+                <li>React</li>
+                <li>Tailwind</li>
+              </ul>
+            </p>
+            <div className="flex justify-between">
+              <a
+                href="https://meal-mart.vercel.app/"
+                className="text-blue-500 font-medium"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/shekinahmanyi/Meal_Mart"
+                className="text-blue-500 font-medium"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+
+          {/* Project 5 */}
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-24 md:mr-2">
+            <img
+              src={github}
+              alt="Project 5"
               className="w-full h-56 object-cover mb-4"
             />
             <h2 className="text-lg font-bold mb-2">GithubFinder</h2>
             <p className="text-gray-600 mb-4">
               <span className="font-bold">Technology Used:</span>
               <ul className="list-disc pl-4">
-                <li>React</li>
+              <li>React</li>
                 <li>Daisy UI</li>
                 <li>Github API</li>
                 <li>Tailwind</li>
@@ -143,40 +178,7 @@ function Projects() {
                 Live Demo
               </a>
               <a
-                href="https://github.com/shekinahmanyi/github-finder-project"
-                className="text-blue-500 font-medium"
-              >
-                Repository
-              </a>
-            </div>
-          </div>
-
-          {/* Project 5 */}
-          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-24 md:mr-2">
-            <img
-              src={rest}
-              alt="Project 5"
-              className="w-full h-56 object-cover mb-4"
-            />
-            <h2 className="text-lg font-bold mb-2">Backend REST API</h2>
-            <p className="text-gray-600 mb-4">
-              <span className="font-bold">Technology Used:</span>
-              <ul className="list-disc pl-4">
-                <li>React</li>
-                <li>Node</li>
-                <li>ExpressJs</li>
-                <li>MongoDB</li>
-              </ul>
-            </p>
-            <div className="flex justify-between">
-              <a
-                href="https://github.com/shekinahmanyi/backend_rest_api"
-                className="text-blue-500 font-medium"
-              >
-                Live Demo
-              </a>
-              <a
-                href="https://github.com/shekinahmanyi/backend_rest_api"
+                href="ttps://github.com/shekinahmanyi/github-finder-project"
                 className="text-blue-500 font-medium"
               >
                 Repository
@@ -214,6 +216,39 @@ function Projects() {
               </a>
               <a
                 href="https://github.com/shekinahmanyi/bus-pass-management-system"
+                className="text-blue-500 font-medium"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+
+           {/* Project 7 */}
+           <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white p-6 rounded-lg flex flex-col max-w-md mx-4 md:ml-24 md:mr-2">
+            <img
+              src={rest}
+              alt="Project 5"
+              className="w-full h-56 object-cover mb-4"
+            />
+            <h2 className="text-lg font-bold mb-2">Backend REST API</h2>
+            <p className="text-gray-600 mb-4">
+              <span className="font-bold">Technology Used:</span>
+              <ul className="list-disc pl-4">
+                <li>React</li>
+                <li>Node</li>
+                <li>ExpressJs</li>
+                <li>MongoDB</li>
+              </ul>
+            </p>
+            <div className="flex justify-between">
+              <a
+                href="https://github.com/shekinahmanyi/backend_rest_api"
+                className="text-blue-500 font-medium"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/shekinahmanyi/backend_rest_api"
                 className="text-blue-500 font-medium"
               >
                 Repository
