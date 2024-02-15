@@ -74,7 +74,7 @@ function Projects() {
             </p>
             <div className="flex justify-between">
               <a
-                href="https://shekinahmanyi.github.io/e-commerce-product/"
+                href="https://e-commerce-product-sigma.vercel.app/"
                 className="text-blue-500 font-medium"
               >
                 Live Demo
