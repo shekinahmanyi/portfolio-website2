@@ -51,7 +51,7 @@ function Navbar() {
             }`}
             onClick={handleLinkClick}
           >
-            About Me
+            About
           </Link>
           <Link
             to="/skills"
@@ -84,7 +84,7 @@ function Navbar() {
             }`}
             onClick={handleLinkClick}
           >
-            Contact Me
+            Contact
           </Link>
         </div>
 
