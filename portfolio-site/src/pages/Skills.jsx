@@ -7,14 +7,13 @@ import git from '../images/git.png';
 import mongodb from '../images/mongodb.png';
 import firebase from '../images/firebase.png';
 import flutter from '../images/flutter.png'
-import tailwind from '../images/tailwind.png'
 
 function Skills() {
   return (
     <div className="bg-slate-900 min-h-screen flex flex-col items-center justify-center">
       <h1 className="text-blue-400 text-center text-2xl p-8 font-nunito mb-4 font-bold mt-24">Tools / Technologies</h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 font-nunito mb-8 font-bold">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 font-nunito mb-8 font-bold">
         <div className="bg-black bg-opacity-20 p-2 rounded-lg flex flex-col items-center">
           <img src={reactimage} alt="React" className="w-56 h-56 object-contain p-8" />
           <p className="text-white mt-2">React</p>
@@ -54,10 +53,7 @@ function Skills() {
           <img src={flutter} alt="Flutter" className="w-56 h-56 object-contain p-4" />
           <p className="text-white mt-2">Flutter</p>
         </div>
-        <div className="bg-black bg-opacity-20 p-2 rounded-lg flex flex-col items-center">
-          <img src={tailwind} alt="Flutter" className="w-56 h-56 object-contain p-4" />
-          <p className="text-white mt-2">TailwindCSS</p>
-        </div>
+       
       </div>
     </div>
   );
