@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import about from "../images/about.jpg"; 
+import speaker from "../images/speaker.jpg"
 
 function About() {
   const blogUrl = "https://medium.com/@shekinahmanyi";
@@ -10,7 +11,7 @@ function About() {
       <div className="font-nunito p-8 flex flex-col md:flex-row items-center">
         <div className="mb-8 md:mr-8 md:mb-0">
           <img
-            src={about} 
+            src={speaker} 
             alt="Software Engineer"
             className="w-96 h-96 rounded-lg object-cover mx-auto md:mx-0"
           />
@@ -37,6 +38,10 @@ function About() {
             do, embracing
             <br />
             challenges with a smile.
+            <br /> <br />
+            I am also a lover of community and I volunteer as a GDG Organizer and I am  <br />
+            a GDSC alumni of the University of Buea.  <br />
+            I also Love Jesus ❤️! Please Feel free to reach out!!
           </p>
           <a href={blogUrl} target="_blank" rel="noopener noreferrer">
             <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white text-blue-700 px-4 py-2 rounded-md flex items-center mt-4">
