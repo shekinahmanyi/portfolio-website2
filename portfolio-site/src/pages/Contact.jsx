@@ -13,7 +13,7 @@ function Contact() {
         <h1 className="text-3xl text-blue-400 text-center font-bold mt-24">
           Contact Me!
         </h1>
-        <p className="text-white text-center text-base p-6">
+        <p className="text-white bold text-center text-xl p-6">
           I am eager to contribute to your team and make a positive impact.   <br />
           Do you have any projects or ideas that you would like me to
           work on?   <br /><br />
