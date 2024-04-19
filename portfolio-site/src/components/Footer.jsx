@@ -12,13 +12,13 @@ function Footer() {
   const footerYear = new Date().getFullYear();
 
   return (
-    <footer className="relative p-10 text-primary-content flex flex-col justify-center items-center text-base">
+    <footer className="relative p-10  text-primary-content flex flex-col justify-center items-center text-base border-slate-900">
       <div
-        className="absolute inset-0 z-0 bg-cover bg-center brightness-50"
+        className="absolute inset-0 z-0 bg-cover bg-center brightness-50 "
         style={{ backgroundImage: `url(${h1})` }}
       />
       <div className="relative z-10 container text-white">
-        <p className="mb-2 text-xl font-nunito text-center">
+        <p className="mb-2 text-xl  text-center">
           Let's connect on social media!
         </p>
         <div className="flex justify-center items-center space-x-4 text-xl text-black">
