@@ -1,7 +1,6 @@
 import React from "react";
 import {
   FaEnvelope,
-  FaPhoneAlt,
   FaTwitter,
   FaLinkedin,
   FaGithub,
@@ -22,7 +21,7 @@ function Contact() {
           deliver high-quality work.<br /> I am excited to hear from you and learn
           more about your team's goals.
         </p>
-        <div className="w-3/5 h-96 bg-white p-6 rounded-lg shadow-md mt-2 mb-4">
+        <div className=" bg-white p-6 rounded-lg shadow-md mt-2 mb-4">
           <p className="font-bold text-center text-2xl mb-4">
             Send me a Message!
           </p>
@@ -33,10 +32,10 @@ function Contact() {
           <p className="mb-4">shekinahmanyi@gmail.com</p>
 
           <h2 className="text-lg font-bold flex items-center">
-            <span className="mr-2">or Call Me!</span>
-            <FaPhoneAlt className="text-blue-700 mr-2" />
+            <span className="mr-2">or Text Me!</span>
+            
           </h2>
-          <p>+237 652594201</p>
+          <p>@shekinahmanyi</p>
           <div className="flex justify-center items-center space-x-2 mt-4">
             <a
               href="https://github.com/shekinahmanyi"
