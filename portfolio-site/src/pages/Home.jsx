@@ -5,7 +5,7 @@ import { FaDownload } from "react-icons/fa";
 
 function Home() {
   const resumeUrl =
-    "https://drive.google.com/file/d/1pCeCF3Bf5QBTft2qsevHOxTXlVL2uV7q/view?usp=sharing"; 
+    "https://drive.google.com/file/d/1wfatKPsT9GtMcEJPpIwXUm4mhZmFZHPz/view?usp=sharing"; 
 
   return (
     <div className="bg-slate-900 min-h-screen flex items-center justify-center ">
