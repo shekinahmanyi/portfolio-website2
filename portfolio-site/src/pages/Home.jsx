@@ -2,10 +2,9 @@ import React from "react";
 import sheki from "../images/sheki.jpg";
 import { FaDownload } from "react-icons/fa";
 
-
 function Home() {
   const resumeUrl =
-    "https://drive.google.com/file/d/1wfatKPsT9GtMcEJPpIwXUm4mhZmFZHPz/view?usp=sharing"; 
+    "https://drive.google.com/file/d/1t717AtUmI47ErnCDuFB6aW5KAfj_lJmy/view?usp=sharing";
 
   return (
     <div className="bg-slate-900 min-h-screen flex items-center justify-center ">
@@ -21,8 +20,8 @@ function Home() {
           FULL STACK DEVELOPER
         </h1>
         <h1 className="text-2xl font-bold text-center font-nunito pt-4 text-white">
-          Hello <span className="hand-wave inline-block animate-wave">👋</span> , 
-        <span> I'm Shekinah!</span> 
+          Hello <span className="hand-wave inline-block animate-wave">👋</span>{" "}
+          ,<span> I'm Shekinah!</span>
         </h1>
         <p className="font-nunito p-4 text-center text-white text-lg">
           I am a passionate and experienced Full Stack Developer, with expertise
