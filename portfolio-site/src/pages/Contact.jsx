@@ -21,19 +21,19 @@ function Contact() {
           <h1 className="text-3xl text-blue-400 font-bold mt-24 lg:mt-0">
             Contact Me!
           </h1>
-          <p className="text-white bold text-xl mt-6 lg:mt-4">
+          <p className="text-white bold text-lg mt-6 lg:mt-4">
             I'm excited about the opportunity to contribute to your team and
-            make a meaningful impact. <br /><br />
+            make a meaningful impact. <br /> <br />
             If you have any projects or ideas that you think I can assist with,
-            I'd love to hear about them!👂
-            <br /><br /> I'm always open to new
+            I'd love to hear about them!
+            <br /> I'm always open to new
             challenges and confident in my ability to deliver high-quality work.
             <br />
             <br /> Send me a Message and Let's discuss how I can help achieve
-            your team's goals.
+            your team's goals.📩
           </p>
         </div>
-        <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md mt-8 mb-8 lg:mt-0">
+        <div className="w-full lg:w-1/2 bg-white p-6 rounded-lg shadow-md mt-8 mb-8 lg:mt-0">
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label htmlFor="name" className="block text-lg font-bold mb-2">
