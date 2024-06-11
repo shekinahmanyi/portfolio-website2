@@ -1,42 +1,84 @@
-import React from "react";
-import {
-  FaEnvelope,
-  FaTwitter,
-  FaLinkedin,
-  FaGithub,
-} from "react-icons/fa";
+import React, { useState } from "react";
+import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Contact() {
-  return (
-    <div className="bg-slate-900 min-h-screen flex items-center justify-center">
-      <div className="container flex flex-col items-center font-nunito">
-        <h1 className="text-3xl text-blue-400 text-center font-bold mt-24">
-          Contact Me!
-        </h1>
-        <p className="text-white bold text-center text-xl p-6">
-          I am eager to contribute to your team and make a positive impact.   <br />
-          Do you have any projects or ideas that you would like me to
-          work on?   <br /><br />
-          I am open to new challenges and I am confident that I can
-          deliver high-quality work.<br /> I am excited to hear from you and learn
-          more about your team's goals.
-        </p>
-        <div className=" bg-white p-6 rounded-lg shadow-md mt-2 mb-4">
-          <p className="font-bold text-center text-2xl mb-4">
-            Send me a Message!
-          </p>
-          <h2 className="text-lg font-bold flex items-center">
-            <span className="mr-2">Email Me</span>
-            <FaEnvelope className="text-blue-700" />
-          </h2>
-          <p className="mb-4">shekinahmanyi@gmail.com</p>
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-          <h2 className="text-lg font-bold flex items-center">
-            <span className="mr-2">or Text Me!</span>
-            
-          </h2>
-          <p>@shekinahmanyi</p>
-          <div className="flex justify-center items-center space-x-2 mt-4">
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const mailtoLink = `mailto:shekinahmanyi@gmail.com?subject=Message from ${name}&body=${encodeURIComponent(
+      message
+    )}%0A%0AFrom: ${name}%0AEmail: ${email}`;
+    window.location.href = mailtoLink;
+  };
+
+  return (
+    <div className="bg-slate-900 min-h-screen flex items-center justify-center px-4">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center font-nunito">
+        <div className="lg:w-1/2 lg:pr-8">
+          <h1 className="text-3xl text-blue-400 font-bold mt-24 lg:mt-0">
+            Contact Me!
+          </h1>
+          <p className="text-white bold text-xl mt-6 lg:mt-4">
+            I'm excited about the opportunity to contribute to your team and
+            make a meaningful impact. <br/>If you have any projects or ideas that you
+            think I can assist with, I'd love to hear about them! <br/> I'm always
+            open to new challenges and confident in my ability to deliver
+            high-quality work.<br/><br/> Send me a Message and Let's discuss how I can help achieve
+            your team's goals.
+          </p>
+        </div>
+        <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md mt-8 mb-8 lg:mt-0">
+          <form onSubmit={handleSubmit} className="space-y-4">
+            <div>
+              <label htmlFor="name" className="block text-lg font-bold mb-2">
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="email" className="block text-lg font-bold mb-2">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="message" className="block text-lg font-bold mb-2">
+                Message
+              </label>
+              <textarea
+                id="message"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+                rows="5"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              className="w-full py-2 px-4 bg-green-700 text-white font-bold rounded-lg hover:bg-green-700 transition"
+            >
+              Send
+            </button>
+          </form>
+          <div className="mt-6 flex space-x-2 justify-center">
             <a
               href="https://github.com/shekinahmanyi"
               target="_blank"
@@ -63,14 +105,6 @@ function Contact() {
             </a>
           </div>
         </div>
-        <a
-          href="https://www.buymeacoffee.com/shekinahmanyi"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-green-500 text-white text-lg font-medium px-4 py-2 rounded-md mt-6 mb-4"
-        >
-          <span>Buy Me a Coffee</span>
-        </a>
       </div>
     </div>
   );
