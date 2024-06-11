@@ -23,10 +23,12 @@ function Contact() {
           </h1>
           <p className="text-white bold text-xl mt-6 lg:mt-4">
             I'm excited about the opportunity to contribute to your team and
-            make a meaningful impact. <br/>If you have any projects or ideas that you
-            think I can assist with, I'd love to hear about them! <br/> I'm always
-            open to new challenges and confident in my ability to deliver
-            high-quality work.<br/><br/> Send me a Message and Let's discuss how I can help achieve
+            make a meaningful impact. <br />
+            If you have any projects or ideas that you think I can assist with,
+            I'd love to hear about them! <br /> I'm always open to new
+            challenges and confident in my ability to deliver high-quality work.
+            <br />
+            <br /> Send me a Message and Let's discuss how I can help achieve
             your team's goals.
           </p>
         </div>
