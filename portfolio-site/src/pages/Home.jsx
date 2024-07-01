@@ -16,6 +16,7 @@ function Home() {
             className="rounded-full object-cover w-full h-full"
           />
         </div>
+        {/* Title */}
         <h1 className="text-xs font-bold text-center font-nunito text-stone-300">
           FULL STACK DEVELOPER
         </h1>
@@ -36,6 +37,7 @@ function Home() {
           >
             <FaDownload className="mr-2" /> Resume
           </a>
+
           <a
             href="/contact"
             className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-green-500 text-white text-lg font-medium px-4 py-2 rounded-md"
