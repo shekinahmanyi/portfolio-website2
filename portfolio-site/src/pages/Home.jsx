@@ -42,7 +42,7 @@ function Home() {
         },
         modes: {
           push: {
-            quantity: 8,
+            quantity:0,
           },
           repulse: {
             distance: 200,
@@ -52,17 +52,11 @@ function Home() {
       },
       particles: {
         color: {
-          value: "#ffffff",
+          value: "#FFFFFF",
         },
-        links: {
-          color: "#ffffff",
-          distance: 250,
-          enable: true,
-          opacity: 0.5,
-          width: 1,
-        },
+        
         move: {
-          direction: "none",
+          direction: "bottom",
           enable: true,
           outModes: {
             default: "bounce",
@@ -87,6 +81,7 @@ function Home() {
           value: { min: 5, max: 10 },
         },
       },
+      preset: "stars",
       detectRetina: true,
     }),
     []
@@ -100,7 +95,7 @@ function Home() {
           id="tsparticles"
           particlesLoaded={particlesLoaded}
           options={options}
-          className="absolute inset-0"
+          className="absolute inset-0 "
         />
       )}
 
