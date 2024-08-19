@@ -9,7 +9,7 @@ const Navbar = () => {
   const links = [
     { to: "/", label: "Home" },
     { to: "/about", label: "About" },
-    { to: "/skills", label: "Skills" },
+    // { to: "/skills", label: "Skills" },
     { to: "/projects", label: "Projects" },
     { to: "/contact", label: "Contact" },
   ];
@@ -29,7 +29,7 @@ const Navbar = () => {
           </span>
         </div>
 
-        <div className="hidden md:flex space-x-4 mr-52 font-bold">
+        <div className="hidden md:flex space-x-4 font-bold">
           {links.map(({ to, label }) => (
             <Link
               key={to}

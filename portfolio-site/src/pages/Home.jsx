@@ -3,7 +3,7 @@ import sheki from "../images/sheki.jpg";
 import { FaDownload, FaArrowDown } from "react-icons/fa";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import { Link } from "react-router-dom"; // Assuming you are using react-router for navigation
+import { Link } from "react-router-dom";
 
 function Home() {
   const resumeUrl =
@@ -55,7 +55,6 @@ function Home() {
         color: {
           value: "",
         },
-
         move: {
           direction: "bottom",
           enable: true,
@@ -99,7 +98,6 @@ function Home() {
           className="absolute inset-0"
         />
       )}
-
       {/* Card Content */}
       <div className="relative z-10 rounded-lg max-w-md w-full sm:w-auto p-2 md:p-8 shadow-lg text-white mt-32 lg:mt-24">
         <div className="w-48 h-48 mx-auto mb-4 transform hover:scale-105 transition duration-300">
@@ -131,39 +129,34 @@ function Home() {
           </a>
         </div>
       </div>
+      ={/* Additional Section */}
+      <div className="relative z-10 text-center mt-12 md:mt-16">
+        <p className="text-gray-300 text-xl md:text-2xl font-mono font-bold p-4">
+          Are you
+          <span className="bg-green-500 text-black rounded-full px-2 py-1 inline-block mx-1">
+            curious
+          </span>
+          to learn more
+          <span className="bg-indigo-500 text-black rounded-full px-2 py-1 inline-block mx-1">
+            about me
+          </span>
+          and what I can
+          <span className="bg-yellow-300 text-black rounded-full px-2 py-1 inline-block mx-1">
+            offer
+          </span>
+          ?
+        </p>
 
-      {/* Additional Section */}
-<div className="relative z-10 text-center mt-12 md:mt-16">
-  <p className="text-gray-300 text-xl md:text-2xl font-mono font-bold p-4">
-    Are you
-    <span className="bg-green-500 text-black rounded-full px-2 py-1 inline-block mx-1">
-      curious
-    </span>
-    to learn more
-    <span className="bg-indigo-500 text-black rounded-full px-2 py-1 inline-block mx-1">
-      about me
-    </span>
-    and what I can
-    <span className="bg-yellow-300 text-black rounded-full px-2 py-1 inline-block mx-1">
-      offer
-    </span>
-    ?
-  </p>
-
-  {/* Container for Arrow and Button */}
-  <div className="flex flex-col items-center justify-center mt-8">
-    <FaArrowDown className="text-indigo-400 text-6xl animate-bounce cursor-pointer mb-4" />
-
-    <Link to="/about">
-      <button className="transition cursor-pointer ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-indigo-500 text-white text-lg font-bold px-6 py-3 rounded-md shadow-lg font-nunito">
-        Learn More About Me
-      </button>
-    </Link>
-  </div>
-</div>
-
-
-    
+        {/* Container for Arrow and Button */}
+        <div className="flex flex-col items-center justify-center mt-8">
+          <FaArrowDown className="text-indigo-400 text-6xl animate-bounce cursor-pointer mb-4" />
+          <Link to="/about">
+            <button className="transition cursor-pointer ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-indigo-500 text-white text-lg font-bold px-6 py-3 rounded-md shadow-lg font-nunito">
+              Learn More About Me
+            </button>
+          </Link>
+        </div>
+      </div>
     </main>
   );
 }

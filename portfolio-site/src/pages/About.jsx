@@ -2,11 +2,13 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import speaker from "../images/speaker.jpg";
 
+
+
 function About() {
   const blogUrl = "https://medium.com/@shekinahmanyi";
 
   return (
-    <div className="bg-gradient-to-r from-slate-900 to-gray-800 min-h-screen flex items-center justify-center">
+    <div className="bg-gradient-to-r from-slate-900 to-gray-800 min-h-screen flex flex-col items-center justify-center">
       <div className="font-nunito p-8 flex flex-col md:flex-row items-center">
         <div className="mb-8 mt-12 md:mr-8 md:mb-0">
           <img
@@ -19,7 +21,9 @@ function About() {
           <div className="border-l-4 border-blue-400 pl-4 mb-4">
             <h1 className="text-sm text-blue-400">About Me</h1>
           </div>
-          <h1 className="text-base font-bold text-green-500 mb-2 ">More About Me</h1>
+          <h1 className="text-base font-bold text-green-500 mb-2 ">
+            More About Me
+          </h1>
           <p className="text-white text-base">
             My name is Shekinah Manyi and I am a Software Engineer
             <br />
@@ -51,6 +55,47 @@ function About() {
             </button>
           </a>
         </div>
+      </div>
+      {/**Technologies */}
+      <div className="grid grid-cols-3 gap-2 md:grid-cols-3 mt-12 md:mt-24 font-nunito text-center cursor-pointer">
+        <p className="bg-green-500 text-xl md:text-2xl font-bold text-black rounded-full px-4 md:px-6 py-3 md:py-3 inline-block mx-1">
+          HTML
+        </p>
+        <p className="bg-yellow-300 text-xl md:text-2xl font-bold text-black rounded-full px-4 md:px-6 py-3 md:py-3 inline-block mx-1">
+          CSS
+        </p>
+        <p className="bg-indigo-500 text-xl md:text-2xl font-bold text-black rounded-full px-4 md:px-6 py-3 md:py-3 inline-block ">
+          JavaScript
+        </p>
+      </div>
+
+      {/**Technologies 2 */}
+      <div className="grid grid-cols-2 gap-2 md:grid-cols-4 mt-2 font-nunito text-center cursor-pointer">
+        <p className="bg-green-500 text-xl md:text-2xl font-bold text-black rounded-full px-4 md:px-6 py-3 md:py-3 inline-block">
+          React
+        </p>
+        <p className="bg-yellow-300 text-xl md:text-2xl font-bold text-black rounded-full px-4 md:px-6 py-3 md:py-3 inline-block">
+          TailwindCSS
+        </p>
+        <p className="bg-indigo-500 text-xl md:text-2xl font-bold text-black rounded-full px-4 md:px-6 py-3 md:py-3 inline-block">
+          Bootstrap
+        </p>
+        <p className="bg-indigo-500 text-xl md:text-2xl font-bold text-black rounded-full px-4 md:px-6 py-3 md:py-3 inline-block">
+          PHP
+        </p>
+      </div>
+
+      {/**Technologies 3 */}
+      <div className="grid grid-cols-3 gap-2 md:grid-cols-3 text-center mt-2 font-nunito cursor-pointer">
+        <p className="bg-green-500 text-xl md:text-2xl font-bold text-black rounded-full px-4 md:px-6 py-3 md:py-3 inline-block mx-1">
+          NodeJs
+        </p>
+        <p className="bg-yellow-300 text-xl md:text-2xl font-bold text-black rounded-full px-4 md:px-6 py-3 md:py-3 inline-block mx-1">
+          Python
+        </p>
+        <p className="bg-indigo-500 text-xl md:text-2xl font-bold text-black rounded-full px-4 md:px-6 py-3 md:py-3 inline-block mx-1">
+          Git
+        </p>
       </div>
     </div>
   );
