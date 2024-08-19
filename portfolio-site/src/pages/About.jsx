@@ -19,7 +19,7 @@ function About() {
           <div className="border-l-4 border-blue-400 pl-4 mb-4">
             <h1 className="text-sm text-blue-400">About Me</h1>
           </div>
-          <h1 className="text-base font-bold text-white mb-2">More About Me</h1>
+          <h1 className="text-base font-bold text-green-500 mb-2 ">More About Me</h1>
           <p className="text-white text-base">
             My name is Shekinah Manyi and I am a Software Engineer
             <br />
@@ -46,7 +46,7 @@ function About() {
             Please Feel free to reach out!!
           </p>
           <a href={blogUrl} target="_blank" rel="noopener noreferrer">
-            <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white text-blue-700 px-4 py-2 rounded-md flex items-center mt-4">
+            <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-yellow-300 text-black font-bold px-4 py-2 rounded-md flex items-center mt-4">
               Visit My Blog <FaArrowRight className="ml-1" />
             </button>
           </a>

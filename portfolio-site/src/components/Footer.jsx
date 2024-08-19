@@ -38,7 +38,7 @@ function Footer() {
 
         <hr className="my-8 border-t border-gray-600 w-full" />
 
-        <div className="text-sm font-light">
+        <div className="text-sm font-bold font-nunito">
           <p>Designed & Built with ❤️ by Sheki Dev✨</p>
           <p>&copy; {footerYear} All rights reserved</p>
         </div>

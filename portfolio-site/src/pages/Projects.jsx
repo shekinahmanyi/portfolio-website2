@@ -263,7 +263,7 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-white text-blue-700 px-4 py-2 rounded-md flex items-center mt-4">
+            <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-yellow-300 text-black font-bold px-4 py-2 rounded-md flex items-center mt-4">
               Check More Projects <FaArrowRight className="ml-1" />
             </button>
           </a>

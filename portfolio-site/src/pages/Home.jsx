@@ -125,7 +125,7 @@ function Home() {
           <a
             href={resumeUrl}
             download="resume.pdf"
-            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-yellow-600 text-white text-lg font-medium px-5 py-3 rounded-md flex items-center shadow-lg"
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-yellow-300 text-black  text-lg font-bold px-5 py-3 rounded-md flex items-center shadow-lg"
           >
             <FaDownload className="mr-2" /> Download Resume
           </a>
@@ -133,20 +133,37 @@ function Home() {
       </div>
 
       {/* Additional Section */}
-      <div className="relative z-10 text-center mt-12 md:mt-16">
-        <p className="text-gray-300 text-xl md:text-2xl font-mono font-bold p-4">
-          Are you curious to learn more about me and what I can Offer?
-        </p>
-        <Link to="/about" className="inline-block mt-4">
-          <FaArrowDown className="text-indigo-400 text-6xl animate-bounce" />
-        </Link>
-      </div>
-      {/* New Button Below Arrow */}
-      <Link to="/about" className="inline-block mt-8">
-        <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-indigo-500 text-white text-lg font-medium px-6 py-3 rounded-md shadow-lg font-nunito">
-          Learn More About Me
-        </button>
-      </Link>
+<div className="relative z-10 text-center mt-12 md:mt-16">
+  <p className="text-gray-300 text-xl md:text-2xl font-mono font-bold p-4">
+    Are you
+    <span className="bg-green-500 text-black rounded-full px-2 py-1 inline-block mx-1">
+      curious
+    </span>
+    to learn more
+    <span className="bg-indigo-500 text-black rounded-full px-2 py-1 inline-block mx-1">
+      about me
+    </span>
+    and what I can
+    <span className="bg-yellow-300 text-black rounded-full px-2 py-1 inline-block mx-1">
+      offer
+    </span>
+    ?
+  </p>
+
+  {/* Container for Arrow and Button */}
+  <div className="flex flex-col items-center justify-center mt-8">
+    <FaArrowDown className="text-indigo-400 text-6xl animate-bounce cursor-pointer mb-4" />
+
+    <Link to="/about">
+      <button className="transition cursor-pointer ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-indigo-500 text-white text-lg font-bold px-6 py-3 rounded-md shadow-lg font-nunito">
+        Learn More About Me
+      </button>
+    </Link>
+  </div>
+</div>
+
+
+    
     </main>
   );
 }
