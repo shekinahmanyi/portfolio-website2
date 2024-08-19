@@ -19,21 +19,22 @@ function Contact() {
       <div className="container mx-auto flex flex-col lg:flex-row items-center font-nunito lg:max-w-4xl">
         <div className="lg:w-1/2 lg:pr-6 mb-12 lg:mb-0 text-center lg:text-left">
           <h1 className="text-3xl sm:text-4xl text-green-400 font-extrabold mb-4 mt-32 lg:mt-0 animate-pulse">
-            Get in Touch!
+            Get in Touch🫱🫲
+
           </h1>
           <p className="text-white text-base sm:text-lg leading-relaxed mb-6">
             I’m thrilled at the possibility of collaborating with you on your
             next project. Whether you have a new idea, need help with something
             ongoing, or just want to chat, I'm here for it! Let's make something
-            amazing together. 
+            amazing together💡
           </p>
         </div>
-        <div className="w-full lg:w-1/2 bg-white p-6 sm:p-8 rounded-2xl shadow-lg lg:max-w-md">
+        <div className="w-full lg:w-1/2 bg-indigo-600 p-6 sm:p-8 rounded-2xl shadow-lg lg:max-w-md">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label
                 htmlFor="name"
-                className="block text-lg font-bold text-gray-700 mb-2"
+                className="block text-lg font-bold text-black mb-2"
               >
                 Name
               </label>
@@ -49,7 +50,7 @@ function Contact() {
             <div>
               <label
                 htmlFor="email"
-                className="block text-lg font-bold text-gray-700 mb-2"
+                className="block text-lg font-bold text-black mb-2"
               >
                 Email
               </label>
@@ -65,7 +66,7 @@ function Contact() {
             <div>
               <label
                 htmlFor="message"
-                className="block text-lg font-bold text-gray-700 mb-2"
+                className="block text-lg font-bold text-black mb-2"
               >
                 Message
               </label>
@@ -80,7 +81,7 @@ function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full py-3 bg-indigo-400 text-black font-bold rounded-lg shadow-md hover:bg-indigo-600 transition transform hover:-translate-y-1"
+              className="w-full py-3 bg-yellow-600 text-black text-xl font-bold rounded-lg shadow-md hover:bg-yellow-600 transition transform hover:-translate-y-1"
             >
               Send Message
             </button>
@@ -99,7 +100,7 @@ function Contact() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-indigo-400 p-4 rounded-full text-white hover:bg-indigo-600 transition transform hover:-translate-y-1 hover:scale-110"
+                className="bg-yellow-600 p-4 rounded-full text-black hover:bg-yellow-600 transition transform hover:-translate-y-1 hover:scale-110"
               >
                 <Icon size={24} />
               </a>
