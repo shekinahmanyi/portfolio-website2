@@ -101,7 +101,7 @@ function Home() {
       )}
 
       {/* Card Content */}
-      <div className="relative z-10 rounded-lg max-w-md w-full sm:w-auto p-8 shadow-lg text-white mt-32 lg:mt-24">
+      <div className="relative z-10 rounded-lg max-w-md w-full sm:w-auto p-2 md:p-8 shadow-lg text-white mt-32 lg:mt-24">
         <div className="w-48 h-48 mx-auto mb-4 transform hover:scale-105 transition duration-300">
           <img
             src={sheki}
@@ -143,7 +143,7 @@ function Home() {
       </div>
       {/* New Button Below Arrow */}
       <Link to="/about" className="inline-block mt-8">
-        <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-indigo-500 text-white text-lg font-medium px-6 py-3 rounded-md shadow-lg">
+        <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-indigo-500 text-white text-lg font-medium px-6 py-3 rounded-md shadow-lg font-nunito">
           Learn More About Me
         </button>
       </Link>
