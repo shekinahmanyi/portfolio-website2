@@ -6,7 +6,7 @@ function About() {
   const blogUrl = "https://medium.com/@shekinahmanyi";
 
   return (
-    <div className="bg-slate-900 min-h-screen flex items-center justify-center">
+    <div className="bg-gradient-to-r from-slate-900 to-gray-800 min-h-screen flex items-center justify-center">
       <div className="font-nunito p-8 flex flex-col md:flex-row items-center">
         <div className="mb-8 mt-12 md:mr-8 md:mb-0">
           <img

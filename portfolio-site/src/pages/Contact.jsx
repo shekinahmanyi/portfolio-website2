@@ -15,59 +15,63 @@ function Contact() {
   };
 
   return (
-    <div className="bg-slate-900 min-h-screen flex items-center justify-center px-4">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center font-nunito">
-        <div className="lg:w-1/2 lg:pr-8">
-          <h1 className="text-3xl text-blue-400 font-bold mt-24 lg:mt-0">
-            Contact Me!
+    <div className="bg-gradient-to-r from-slate-900 to-gray-800 min-h-screen flex items-center justify-center px-4">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center font-nunito lg:max-w-4xl">
+        <div className="lg:w-1/2 lg:pr-6 mb-12 lg:mb-0 text-center lg:text-left">
+          <h1 className="text-3xl sm:text-4xl text-green-400 font-extrabold mb-4 mt-32 lg:mt-0 animate-pulse">
+            Get in Touch!
           </h1>
-          <p className="text-white bold text-lg mt-6 lg:mt-4">
-            I'm excited about the opportunity to contribute to your team and
-            make a meaningful impact. <br /> <br />
-            If you have any projects or ideas that you think I can assist with,
-            I'd love to hear about them!
-            <br /> I'm always open to new
-            challenges and confident in my ability to deliver high-quality work.
-            <br />
-            <br /> Send me a Message and Let's discuss how I can help achieve
-            your team's goals.📩
+          <p className="text-white text-base sm:text-lg leading-relaxed mb-6">
+            I’m thrilled at the possibility of collaborating with you on your
+            next project. Whether you have a new idea, need help with something
+            ongoing, or just want to chat, I'm here for it! Let's make something
+            amazing together. 
           </p>
         </div>
-        <div className="w-full lg:w-1/2 bg-white p-6 rounded-lg shadow-md mt-8 mb-8 lg:mt-0">
-          <form onSubmit={handleSubmit} className="space-y-4">
+        <div className="w-full lg:w-1/2 bg-white p-6 sm:p-8 rounded-2xl shadow-lg lg:max-w-md">
+          <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label htmlFor="name" className="block text-lg font-bold mb-2">
+              <label
+                htmlFor="name"
+                className="block text-lg font-bold text-gray-700 mb-2"
+              >
                 Name
               </label>
               <input
                 type="text"
                 id="name"
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
               />
             </div>
             <div>
-              <label htmlFor="email" className="block text-lg font-bold mb-2">
+              <label
+                htmlFor="email"
+                className="block text-lg font-bold text-gray-700 mb-2"
+              >
                 Email
               </label>
               <input
                 type="email"
                 id="email"
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
               />
             </div>
             <div>
-              <label htmlFor="message" className="block text-lg font-bold mb-2">
+              <label
+                htmlFor="message"
+                className="block text-lg font-bold text-gray-700 mb-2"
+              >
                 Message
               </label>
               <textarea
                 id="message"
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                 rows="5"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
@@ -76,36 +80,30 @@ function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full py-2 px-4 bg-green-700 text-white font-bold rounded-lg hover:bg-green-700 transition"
+              className="w-full py-3 bg-indigo-400 text-white font-bold rounded-lg shadow-md hover:bg-indigo-600 transition transform hover:-translate-y-1"
             >
-              Send
+              Send Message
             </button>
           </form>
-          <div className="mt-6 flex space-x-2 justify-center">
-            <a
-              href="https://github.com/shekinahmanyi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-green-700 rounded-full p-4 text-white"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://twitter.com/ShekinahManyi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-green-700 rounded-full p-4 text-white"
-            >
-              <FaTwitter />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/shekinah-manyi-849a21210/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-green-700 rounded-full p-4 text-white"
-            >
-              <FaLinkedin />
-            </a>
+          <div className="mt-8 flex space-x-6 justify-center">
+            {[
+              { href: "https://github.com/shekinahmanyi", icon: FaGithub },
+              { href: "https://twitter.com/ShekinahManyi", icon: FaTwitter },
+              {
+                href: "https://www.linkedin.com/in/shekinah-manyi-849a21210/",
+                icon: FaLinkedin,
+              },
+            ].map(({ href, icon: Icon }, idx) => (
+              <a
+                key={idx}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-indigo-400 p-4 rounded-full text-white hover:bg-indigo-600 transition transform hover:-translate-y-1 hover:scale-110"
+              >
+                <Icon size={24} />
+              </a>
+            ))}
           </div>
         </div>
       </div>
