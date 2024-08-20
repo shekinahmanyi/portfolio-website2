@@ -9,7 +9,6 @@ const Navbar = () => {
   const links = [
     { to: "/", label: "Home" },
     { to: "/about", label: "About" },
-    // { to: "/skills", label: "Skills" },
     { to: "/projects", label: "Projects" },
     { to: "/contact", label: "Contact" },
   ];
@@ -21,11 +20,11 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-gradient-to-r from-slate-900 to-gray-800 text-neutral-content fixed inset-x-0 z-50 shadow-xl font-nunito">
+    <nav className="bg-gradient-to-r from-purple-900 via-indigo-800 to-blue-900 text-neutral-content fixed inset-x-0 z-50 shadow-xl font-nunito">
       <div className="container mx-auto px-6 flex items-center justify-between">
         <div className="text-2xl mb-5 mt-5 font-bold">
           <span className="text-white tracking-tight">
-            Sheki<span className="text-indigo-600">Dev✨</span>
+            Sheki<span className="text-indigo-400">Dev✨</span>
           </span>
         </div>
 
@@ -35,7 +34,7 @@ const Navbar = () => {
               key={to}
               to={to}
               className={`text-white px-2 py-2 text-lg font-medium ${
-                pathname === to ? "text-blue-500 border-b-2 border-green-500" : "hover:text-blue-400"
+                pathname === to ? "text-indigo-400 border-b-2 border-green-400" : "hover:text-indigo-400"
               }`}
               onClick={() => setIsOpen(false)}
             >
@@ -51,7 +50,7 @@ const Navbar = () => {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="transition hover:-translate-y-1 hover:scale-110 bg-indigo-600 rounded-full p-2"
+              className="transition hover:-translate-y-1 hover:scale-110 bg-indigo-400 rounded-full p-2"
             >
               <Icon />
             </a>
@@ -74,7 +73,7 @@ const Navbar = () => {
                 key={to}
                 to={to}
                 className={`text-white text-base font-medium ${
-                  pathname === to ? "text-blue-500 border-b-2 border-green-500" : "hover:text-blue-400"
+                  pathname === to ? "text-indigo-400 border-b-2 border-green-400" : "hover:text-indigo-400"
                 }`}
                 onClick={() => setIsOpen(false)}
               >

@@ -15,7 +15,7 @@ function Contact() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-slate-900 to-gray-800 min-h-screen flex items-center justify-center px-4">
+    <div className="bg-gradient-to-r from-purple-900 via-indigo-800 to-blue-900 min-h-screen flex items-center justify-center px-4">
       <div className="container mx-auto flex flex-col lg:flex-row items-center font-nunito lg:max-w-4xl">
         <div className="lg:w-1/2 lg:pr-6 mb-12 lg:mb-0 text-center lg:text-left">
           <h1 className="text-3xl sm:text-4xl text-green-400 font-extrabold mb-4 mt-32 lg:mt-0 animate-pulse">
@@ -29,7 +29,7 @@ function Contact() {
             amazing together💡
           </p>
         </div>
-        <div className="w-full lg:w-1/2 bg-indigo-600 p-6 sm:p-8 rounded-2xl shadow-lg lg:max-w-md">
+        <div className="w-full lg:w-1/2 bg-indigo-400 p-6 sm:p-8 rounded-2xl shadow-lg lg:max-w-md">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label
@@ -81,7 +81,7 @@ function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full py-3 bg-yellow-600 text-black text-xl font-bold rounded-lg shadow-md hover:bg-yellow-600 transition transform hover:-translate-y-1"
+              className="w-full py-3 bg-yellow-400 text-black text-xl font-bold rounded-lg shadow-md hover:bg-yellow-400 transition transform hover:-translate-y-1"
             >
               Send Message
             </button>
@@ -100,7 +100,7 @@ function Contact() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-yellow-600 p-4 rounded-full text-black hover:bg-yellow-600 transition transform hover:-translate-y-1 hover:scale-110"
+                className="bg-yellow-400 p-4 rounded-full text-black hover:bg-yellow-400 transition transform hover:-translate-y-1 hover:scale-110"
               >
                 <Icon size={24} />
               </a>
