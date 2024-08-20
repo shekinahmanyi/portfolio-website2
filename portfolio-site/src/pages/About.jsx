@@ -1,7 +1,8 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import speaker from "../images/speaker.jpg";
-
+import {FaArrowDown } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 function About() {
@@ -18,7 +19,7 @@ function About() {
           />
         </div>
         <div>
-          <div className="border-l-4 border-blue-400 pl-4 mb-4">
+          <div className="border-l-4 border-blue-400 pl-4 mb-4 mt-0 md:mt-24">
             <h1 className="text-sm text-blue-400">About Me</h1>
           </div>
           <h1 className="text-base font-bold text-green-500 mb-2 ">
@@ -97,6 +98,14 @@ function About() {
           Git
         </p>
       </div>
+      <div className="flex flex-col items-center justify-center mt-12">
+          <FaArrowDown className="text-indigo-300 text-7xl animate-bounce cursor-pointer mb-6" />
+          <Link to="/projects">
+            <button className="transition transform hover:scale-105 bg-indigo-600 text-white text-lg font-bold px-8 py-4 rounded-md shadow-2xl font-nunito">
+              Check Some Projects
+            </button>
+          </Link>
+        </div>
     </div>
   );
 }

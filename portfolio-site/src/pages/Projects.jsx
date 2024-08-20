@@ -7,6 +7,7 @@ import rest from "../images/rest.jpg";
 import bus from "../images/bus.jpg";
 import ecommerce from "../images/ecommerce.png";
 import { FaArrowRight, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -74,11 +75,27 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="transition transform ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-yellow-400 text-black font-bold px-4 py-2 rounded-md flex items-center mt-4">
+            <button className="transition transform ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-yellow-400 text-black text-lg font-bold px-4 py-2 rounded-md flex items-center mt-4">
               Check More Projects <FaArrowRight className="ml-1" />
             </button>
           </a>
         </div>
+        
+        <p className="text-center text-white font-mono text-xl">
+          Do you want to{" "}
+          <span className="bg-green-400 text-black rounded-full px-3 py-1 inline-block font-bold">
+            hire
+          </span>{" "}
+          me now?
+        </p>
+        <div className="items-center justify-center text-center mt-4">
+        <Link to="/contact">
+            <button className="transition transform hover:scale-105 bg-indigo-600 text-white text-lg font-bold px-4 py-2 rounded-md shadow-2xl font-nunito">
+              Hire me🤲
+            </button>
+          </Link>
+        </div>
+    
       </div>
     </div>
   );
@@ -89,7 +106,7 @@ const projects = [
   {
     title: "MentalLink",
     image: mental,
-    technologies: ["React", "Tailwind", "Node", "MongoDB"],
+    technologies: ["React", "Tailwind", "Node", "Mongo"],
     liveDemo: "https://mental-link.vercel.app/",
     repository: "https://github.com/shekinahmanyi/mental_link_project",
   },
@@ -124,14 +141,14 @@ const projects = [
   {
     title: "Bus Pass Management System",
     image: bus,
-    technologies: ["PHP", "jQuery", "MySQL", "CSS",],
+    technologies: ["PHP", "jQuery", "MySQL", "CSS"],
     liveDemo: "https://github.com/shekinahmanyi/bus-pass-management-system",
     repository: "https://github.com/shekinahmanyi/bus-pass-management-system",
   },
   {
     title: "Backend REST API",
     image: rest,
-    technologies: ["React", "Node", "ExpressJs", "MongoDB"],
+    technologies: ["React", "Node", "Express", "Mongo"],
     liveDemo: "https://github.com/shekinahmanyi/backend_rest_api",
     repository: "https://github.com/shekinahmanyi/backend_rest_api",
   },

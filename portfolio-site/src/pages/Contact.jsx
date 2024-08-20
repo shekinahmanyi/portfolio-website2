@@ -15,12 +15,11 @@ function Contact() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-purple-900 via-indigo-800 to-blue-900 min-h-screen flex items-center justify-center px-4">
+    <div className="bg-gradient-to-r from-purple-900 via-indigo-800 to-blue-900 min-h-screen flex flex-col items-center justify-center px-4">
       <div className="container mx-auto flex flex-col lg:flex-row items-center font-nunito lg:max-w-4xl">
         <div className="lg:w-1/2 lg:pr-6 mb-12 lg:mb-0 text-center lg:text-left">
           <h1 className="text-3xl sm:text-4xl text-green-400 font-extrabold mb-4 mt-32 lg:mt-0 animate-pulse">
             Get in Touch🫱🫲
-
           </h1>
           <p className="text-white text-base sm:text-lg leading-relaxed mb-6">
             I’m thrilled at the possibility of collaborating with you on your
@@ -108,6 +107,9 @@ function Contact() {
           </div>
         </div>
       </div>
+      <p className="mt-12 md:mt-32 text-md md:text-lg font-nunito bg-green-400 text-black font-bold rounded-full px-5 py-2 inline-block cursor-pointer">
+        📩🥹🤲🏾shekinahmanyi@gmail.com
+      </p>
     </div>
   );
 }
