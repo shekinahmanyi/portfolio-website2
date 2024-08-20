@@ -129,7 +129,7 @@ function Home() {
           </a>
         </div>
       </div>
-      ={/* Additional Section */}
+      {/* Additional Section */}
       <div className="relative z-10 text-center mt-12 md:mt-16">
         <p className="text-gray-300 text-xl md:text-2xl font-mono font-bold p-4">
           Are you
