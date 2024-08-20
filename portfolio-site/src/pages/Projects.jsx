@@ -81,7 +81,7 @@ function Projects() {
           </a>
         </div>
         
-        <p className="text-center text-white font-mono text-xl">
+        <p className="text-center text-white font-mono text-md md:text-xl">
           Do you want to{" "}
           <span className="bg-green-400 text-black rounded-full px-3 py-1 inline-block font-bold">
             hire
