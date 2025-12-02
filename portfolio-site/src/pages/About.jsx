@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaArrowRight } from "react-icons/fa";
 import speaker from "../images/speaker.jpg";
 import {FaArrowDown } from "react-icons/fa";

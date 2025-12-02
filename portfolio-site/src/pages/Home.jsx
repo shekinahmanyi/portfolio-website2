@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   const resumeUrl =
-    "https://drive.google.com/file/d/1t717AtUmI47ErnCDuFB6aW5KAfj_lJmy/view?usp=sharing";
+    "https://www.canva.com/design/DAGHz9cDeOc/fULL5xpZyz2B9RQs4HSfsA/edit?utm_content=DAGHz9cDeOc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton";
 
   return (
     <main className="relative min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-purple-900 via-indigo-800 to-blue-900 overflow-hidden">
